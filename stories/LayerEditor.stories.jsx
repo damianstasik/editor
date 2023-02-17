@@ -1,14 +1,14 @@
 import React from 'react';
 import LayerEditor from '../src/components/LayerEditor';
 import {action} from '@storybook/addon-actions';
-import {withA11y} from '@storybook/addon-a11y';
+
 import {latest} from '@mapbox/mapbox-gl-style-spec'
 
 
 export default {
   title: 'LayerEditor',
   component: LayerEditor,
-  decorators: [withA11y],
+
 };
 
 export const Background = () => (

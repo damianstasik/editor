@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import FieldString from '../src/components/FieldString';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'FieldString',
   component: FieldString,
-  decorators: [withA11y],
+
 };
 
 

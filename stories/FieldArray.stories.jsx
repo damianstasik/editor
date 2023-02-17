@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import FieldArray from '../src/components/FieldArray';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'FieldArray',
   component: FieldArray,
-  decorators: [withA11y],
+
 };
 
 

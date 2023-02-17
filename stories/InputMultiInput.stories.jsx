@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import InputMultiInput from '../src/components/InputMultiInput';
 import {InputContainer} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'InputMultiInput',
   component: InputMultiInput,
-  decorators: [withA11y],
+
 };
 
 

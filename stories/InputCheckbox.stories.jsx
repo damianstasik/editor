@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import InputCheckbox from '../src/components/InputCheckbox';
 import {InputContainer} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'InputCheckbox',
   component: InputCheckbox,
-  decorators: [withA11y],
+
 };
 
 

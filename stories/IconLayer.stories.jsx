@@ -2,13 +2,13 @@ import React from 'react';
 import IconLayer from '../src/components/IconLayer';
 import {action} from '@storybook/addon-actions';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 
 export default {
   title: 'IconLayer',
   component: IconLayer,
-  decorators: [withA11y],
+
 };
 
 export const IconList = () => {

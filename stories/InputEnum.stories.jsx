@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import InputEnum from '../src/components/InputEnum';
 import {InputContainer} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'InputEnum',
   component: InputEnum,
-  decorators: [withA11y],
+
 };
 
 

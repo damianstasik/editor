@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import FieldUrl from '../src/components/FieldUrl';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'FieldUrl',
   component: FieldUrl,
-  decorators: [withA11y],
+
 };
 
 

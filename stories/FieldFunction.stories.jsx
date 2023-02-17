@@ -2,14 +2,14 @@ import React from 'react';
 import FieldFunction from '../src/components/FieldFunction';
 import {action} from '@storybook/addon-actions';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 import {latest} from '@mapbox/mapbox-gl-style-spec'
 
 
 export default {
   title: 'FieldFunction',
   component: FieldFunction,
-  decorators: [withA11y],
+
 };
 
 export const Basic = () => {

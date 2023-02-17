@@ -2,13 +2,13 @@ import React from 'react';
 import LayerList from '../src/components/LayerList';
 import {action} from '@storybook/addon-actions';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 
 export default {
   title: 'LayerList',
   component: LayerList,
-  decorators: [withA11y],
+
 };
 
 export const Basic = () => (

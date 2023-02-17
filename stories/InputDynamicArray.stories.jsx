@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import InputDynamicArray from '../src/components/InputDynamicArray';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'InputDynamicArray',
   component: InputDynamicArray,
-  decorators: [withA11y],
+
 };
 
 

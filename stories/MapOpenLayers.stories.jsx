@@ -2,13 +2,13 @@ import React from 'react';
 import MapOpenLayers from '../src/components/MapOpenLayers';
 import {action} from '@storybook/addon-actions';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 
 export default {
   title: 'MapOpenLayers',
   component: MapOpenLayers,
-  decorators: [withA11y],
+
 };
 
 const mapStyle = {

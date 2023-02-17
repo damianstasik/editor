@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import InputNumber from '../src/components/InputNumber';
 import {InputContainer} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'InputNumber',
   component: InputNumber,
-  decorators: [withA11y],
+
 };
 
 export const Basic = () => {

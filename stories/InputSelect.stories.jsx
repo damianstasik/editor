@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import InputSelect from '../src/components/InputSelect';
 import {InputContainer} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'InputSelect',
   component: InputSelect,
-  decorators: [withA11y],
+
 };
 
 

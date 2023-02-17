@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import FieldMultiInput from '../src/components/FieldMultiInput';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'FieldMultiInput',
   component: FieldMultiInput,
-  decorators: [withA11y],
+
 };
 
 

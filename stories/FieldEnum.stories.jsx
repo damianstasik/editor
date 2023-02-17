@@ -2,12 +2,12 @@ import React from 'react';
 import {useActionState} from './helper';
 import FieldEnum from '../src/components/FieldEnum';
 import {Wrapper} from './ui';
-import {withA11y} from '@storybook/addon-a11y';
+
 
 export default {
   title: 'FieldEnum',
   component: FieldEnum,
-  decorators: [withA11y],
+
 };
 
 
