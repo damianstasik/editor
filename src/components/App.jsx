@@ -5,7 +5,6 @@ import clamp from 'lodash.clamp'
 import get from 'lodash.get'
 import {unset} from 'lodash'
 import {arrayMoveMutable} from 'array-move'
-import url from 'url'
 import hash from "string-hash";
 
 import MapMapboxGl from './MapMapboxGl'
@@ -36,7 +35,6 @@ import LayerWatcher from '../libs/layerwatcher'
 import tokens from '../config/tokens.json'
 import isEqual from 'lodash.isequal'
 import Debug from '../libs/debug'
-import queryUtil from '../libs/query-util'
 import {formatLayerId} from '../util/format';
 
 import MapboxGl from 'mapbox-gl'
@@ -203,8 +201,6 @@ export default class App extends React.Component {
       Debug.set("maputnik", "revisionStore", this.revisionStore);
       Debug.set("maputnik", "styleStore", this.styleStore);
     }
-
-    const queryObj = url.parse(window.location.href, true).query;
 
     this.state = {
       errors: [],
@@ -441,7 +437,7 @@ export default class App extends React.Component {
     if (opts.save) {
       this.saveStyle(newStyle);
     }
-       
+
     this.setState({
       mapStyle: newStyle,
       dirtyMapStyle: dirtyMapStyle,

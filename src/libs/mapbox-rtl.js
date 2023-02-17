@@ -1,11 +1,9 @@
 import MapboxGl from 'mapbox-gl'
-import {readFileSync} from 'fs'
+// import data from '@mapbox/mapbox-gl-rtl-text/mapbox-gl-rtl-text'
 
-const data = readFileSync(__dirname+"/../../node_modules/@mapbox/mapbox-gl-rtl-text/mapbox-gl-rtl-text.js", "utf8");
+// const blob = new window.Blob([data], {
+//   type: "text/javascript"
+// });
+// const objectUrl = window.URL.createObjectURL(blob);
 
-const blob = new window.Blob([data], {
-  type: "text/javascript"
-});
-const objectUrl = window.URL.createObjectURL(blob);
-
-MapboxGl.setRTLTextPlugin(objectUrl);
+MapboxGl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js');

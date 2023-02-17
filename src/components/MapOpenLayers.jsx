@@ -7,7 +7,7 @@ import MapMapboxGlLayerPopup from './MapMapboxGlLayerPopup';
 
 import 'ol/ol.css'
 import {apply} from 'ol-mapbox-style';
-import {Map, View, Proj, Overlay} from 'ol';
+import {Map, View, Overlay} from 'ol';
 
 import {toLonLat} from 'ol/proj';
 import {toStringHDMS} from 'ol/coordinate';

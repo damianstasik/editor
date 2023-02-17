@@ -217,7 +217,7 @@ export default class AppToolbar extends React.Component {
             rel="noreferrer noopener"
             href="https://github.com/maputnik/editor"
           >
-            <span dangerouslySetInnerHTML={{__html: logoImage}} />
+            <img src={logoImage} />
             <h1>
               <span className="maputnik-toolbar-name">{pkgJson.name}</span>
               <span className="maputnik-toolbar-version">v{pkgJson.version}</span>
